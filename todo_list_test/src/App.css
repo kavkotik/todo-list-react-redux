@@ -1,0 +1,133 @@
+.App {
+  width: 70%;
+  margin: 20px auto;
+  border: solid 1px rgb(165, 154, 243);
+  padding: 20px;
+  border-radius: 20px;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: rgb(165, 154, 243);
+  color: white;
+  padding: 16px 25px;
+  border-radius: 20px;
+}
+.header-title {
+  font-size: 25px;
+}
+.btn-light {
+  font-size: 14px !important;
+}
+.add-new-task-block {
+  margin: 20px 0;
+  border: solid 2px rgb(165, 154, 243);
+  border-radius: 20px;
+  position: relative;
+  padding: 15px;
+}
+.btn-close {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.new-task-title {
+  text-align: center;
+  font-size: 16px;
+  margin-top: 10px;
+}
+.toogle-status-group {
+  margin: 10px 0;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.status-block {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  flex-direction: column;
+}
+.error-text {
+  margin-top: 10px;
+  color: crimson;
+}
+.status-title {
+  margin-right: 10px;
+}
+.btn-outline-dark {
+  width: 100% !important;
+  border: solid 1px rgb(165, 154, 243) !important;
+  margin-bottom: 10px;
+}
+.btn-outline-dark:hover {
+  background: rgb(165, 154, 243) !important;
+}
+.todo-list {
+  padding: 0;
+  text-align: left;
+}
+.todo-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  border-bottom: solid 1px rgb(165, 154, 243);
+  padding: 10px;
+  margin: 10px 0;
+}
+.todo-item-editing {
+  background: rgba(164, 154, 243, 0.165);
+}
+.task-details {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 80%;
+}
+.task-status {
+  margin-right: 10px;
+  width: 5%;
+}
+.task-text {
+  width: 95%;
+}
+.task-title {
+  font-size: 16px;
+  padding-bottom: 3px;
+  word-wrap: break-word;
+}
+.task-description {
+  font-size: 16px;
+  color: rgb(121, 121, 121);
+  word-wrap: break-word;
+}
+.task-options {
+  width: 20%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+.icon {
+  width: 25px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.form-check-input:checked {
+  background-color: rgb(165, 154, 243) !important ;
+  border-color: rgb(165, 154, 243) !important;
+  outline: none !important;
+}
+.toogle-filter-group {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px 0;
+}
+.counter {
+  color: rgb(165, 154, 243);
+}
+.btn-light {
+  color: rgb(165, 154, 243) !important;
+}
